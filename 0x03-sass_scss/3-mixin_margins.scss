@@ -1,0 +1,10 @@
+@mixin margin-styles($margin){
+    margin-left: $margin;
+    margin-right: $margin;
+}
+body{
+    @include margin-styles(10px)
+}
+p{
+    @include margin-styles(10px)
+}
